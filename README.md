@@ -23,16 +23,18 @@ Information about the experimental data can be found in the README file located 
 
 =======================================================================================================================================
 
-The R script does the following  
+The R script does the following:
+ 
 1. Reads in the following files:
-	* X_train.txt (data on 21 subjects that can be used to generate a training model at a future date)
-	* y_train.txt (activity numbers where the numbers correspond to 6 activities given in activity_labels.txt)
-	* subject_train.txt (subject numbers of the train data sets)
-	* X_test.txt (data on 9 subjects that can be used to test the training model at a future date)
-	* y_train.txt ()activity numbers where the numbers correspond to 6 activities given in activity_labels.txt)
-	* subject_test.txt (subject numbers of the test data sets)
-	* activity_labels.txt (list of the 6 activity names used to generate the experimental data)
-	* features.txt (list of the variable or column names in the X_train.txt and X_test.txt files)
+
+* X_train.txt (data on 21 subjects that can be used to generate a training model at a future date)
+* y_train.txt (activity numbers where the numbers correspond to 6 activities given in activity_labels.txt)
+* subject_train.txt (subject numbers of the train data sets)
+* X_test.txt (data on 9 subjects that can be used to test the training model at a future date)
+* y_train.txt ()activity numbers where the numbers correspond to 6 activities given in activity_labels.txt)
+* subject_test.txt (subject numbers of the test data sets)
+* activity_labels.txt (list of the 6 activity names used to generate the experimental data)
+* features.txt (list of the variable or column names in the X_train.txt and X_test.txt files)
  
 2. Combines all of the train files into one data frame and combines all of the test files into one data frame
   (combines experimental data, subject numbers, and activity numbers).
@@ -57,5 +59,6 @@ The R script does the following
 
 NOTES:
 1. There are 561 variables in the original combined data frame (all Train and Test data).
+
 2. There are 66 variables in the final project data frame (includes the mean() and std() columns/variables only).   
 
