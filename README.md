@@ -15,11 +15,12 @@
 ### REQUIREMENT 5. From the data set in step 4 (it is actually step 2 above for my scripting order), creates a second, independent tidy data set with the average of each variable for each activity and each subject. Note that this is table that will be uploaded as the project output file.
 
 =======================================================================================================================================
-R Script Name: run_analysis.R
-The R script can be found at:
-=======================================================================================================================================
-Information about the experimental data can be found in the README file located with the rest of the files at:
-https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+### R Script Name: run_analysis.R
+### The R script can be found at this same repository
+
+======================================================================================================================================
+Information about the experimental data can be found in the README file located with the rest of the files at: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
 =======================================================================================================================================
 
 The R script does the following  
