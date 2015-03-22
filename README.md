@@ -1,12 +1,12 @@
 =======================================================================================================================================
-# README for:
+## README for:
 
 ## Coursera JHU Data science Course: Getting and Cleaning Data
 ## Assignment: Course Project
 ## Author & Date: J. DaRon Huffaker 03/21/15
 ## R Script Description: This script performs project requirements 1-5 in the order of requirements 1, 4, 3, 2, and 5. To me, it made sense and was easier to perform requirements 1, 4, and 3 first followed by 2 and 5. The five requirements are listed below.
 ### REFERENCES: Course lecture videos and slides for Weeks 1-3 and numerous web searches of R functions
-### Main data frames generated: 1) fdata2 is all the data and labels from the extracted files, and 2) Project_df (Final Mean Table) which is the final mean table
+### Main data frames generated: 1) full_data_frame.txt (Combined Train and Test Data) is all the data and labels from the extracted files, and 2) project_df_jdhuffaker.txt (Final Mean Table) which is the final mean table.
 
 ### REQUIREMENT 1: Merges the training and the test sets to create one data set.
 ### REQUIREMENT 4: Appropriately labels the data set with descriptive variable names. 
