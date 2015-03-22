@@ -58,6 +58,7 @@ The R script does the following:
    This equates to 30 x 6 = 180 rows of mean values.
 
 NOTES:
+
 1. There are 561 variables in the original combined data frame (all Train and Test data).
 
 2. There are 66 variables in the final project data frame (includes the mean() and std() columns/variables only).   
